@@ -9,15 +9,15 @@ header{
 h1{
 	padding: 25px;
 	background-color: #4aaaa5;
-	margin-top: 10px;
-	margin-left: 195px;
+	margin-left: 150px;
 	float: left;
 	color: white;
+	margin-top: auto;
 }
 nav{
-	padding-top: 25px;
 	padding-bottom: 25px;
     height: 75px;
+	margin-bottom: 30px;
     margin-right: 15%;
     float: right;
     font-style: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
