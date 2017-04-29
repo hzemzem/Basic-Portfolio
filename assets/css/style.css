@@ -3,8 +3,10 @@ body{
 }
 header{
 	background-color: #fff;
-    padding: 50px;
+    height: 95px;
 	float: top;
+	border-bottom-width: 3px;
+	border-bottom-color: #4aaaa5;
 }
 h1{
 	padding: 25px;
