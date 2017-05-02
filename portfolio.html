@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Gigi's Portfolio - Gallery</title>
+	<title>Gallery</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
@@ -11,9 +11,9 @@
 			</header>
 			<nav>
 				<ul>
-					  <li id="h" class="about" >About</li>
-					  <li id="h" class="portfolio" >Portfolio</li>
-					  <li id="h" class="contact" >Contact</li>
+					  <a href="index.html"><li id="h" class="about" >About</li></a>
+					  <a href="portfolio.html"><li id="h" class="portfolio" >Portfolio</li></a>
+					  <a href="contact.html"><li id="h" class="contact" >Contact</li></a>
 				</ul>
 			</nav>
 			
@@ -22,12 +22,31 @@
 		<div>
 			<h2>Portfolio</h2>
 			<div class="gallery" >
-				<img src="assets/images/animals.jpg" width="170px" height="200px" alt="Animals">
-				<img src="assets/images/business.jpg" width="170px" height="200px" alt="Business">
-				<img src="assets/images/abstract.jpg" width="170px" height="200px" alt="Abstract">
-				<img src="assets/images/city.jpg" width="170px" height="200px" alt="City">
-				<img src="assets/images/food.jpg" width="170px" height="200px" alt="Food">
-				<img src="assets/images/nature.jpg" width="170px" height="200px" alt="Nature">
+				<div id="parent" style="position:relative"> 
+						<img src="assets/images/animals.jpg" width="150px" height="180px" alt="Animals">
+					<div id="child" style="position:absolute">Animals</div>
+				</div>
+				<div id="parent" style="position:relative;"> 
+						<img src="assets/images/business.jpg" width="150px" height="180px" alt="Business">
+					<div id="child" style="position:absolute">Business</div>
+				</div>
+				<div id="parent" style="position:relative"> 
+						<img src="assets/images/abstract.jpg" width="150px" height="180px" alt="Abstract">
+					<div id="child" style="position:absolute">Abstract</div>
+				</div>
+				<div id="parent" style="position:relative"> 
+						<img src="assets/images/city.jpg" width="150px" height="180px" alt="City">
+					<div id="child" style="position:absolute">City</div>
+				</div>
+				<div id="parent" style="position:relative"> 
+						<img src="assets/images/food.jpg" width="150px" height="180px" alt="Food">
+					<div id="child" style="position:absolute">Food</div>
+				</div>
+				<div id="parent" style="position:relative"> 
+						<img src="assets/images/nature.jpg" width="150px" height="180px" alt="Nature">
+					<div id="child" style="position:absolute">Nature</div>
+				</div>
+				
 			</div>
 		</div>
 	</section>
